@@ -1,0 +1,6 @@
+framework module RXFeedbackSDK {
+  umbrella header "RXFeedbackSDK.h"
+  export *
+
+  module * { export * }
+}
