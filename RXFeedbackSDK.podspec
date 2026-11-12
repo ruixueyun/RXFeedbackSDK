@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RXFeedbackSDK'
-  s.version          = '1.0.2'
+  s.version          = '4.1.2'
   s.summary          = 'RXFeedbackSDK framework.'
 
 # This description is used to generate tags and improve searc results.
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/ruixueyun/RXFeedbackSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '15.0'
 
    s.source_files = '*.framework/Headers/*.{h,m,plist}'
   
@@ -44,7 +44,7 @@ TODO: Add long description of the pod here.
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
 #
-  s.platform = :ios, '12.0'
+  s.platform = :ios, '15.0'
   s.dependency 'RXSDK_Pure'
   s.dependency 'RXLanguageKit'
   
